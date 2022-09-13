@@ -7,6 +7,8 @@ Determine whether an `int32` number is a prime.
 ## Usage
 
 ```bash
+git clone https://github.com/yuxiaoyuan0406/is_prime.git
+cd is_prime
 mkdir build && cd build
 cmake ..
 make -j`nproc`
