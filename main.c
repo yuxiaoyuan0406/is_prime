@@ -20,9 +20,6 @@
     1000000 * (end.tv_sec - start.tv_sec) + end.tv_usec - start.tv_usec; \
 })
 
-int is_prime(int64_t n);
-int basic_is_prime(int64_t n);
-
 int countPrimes(int n){
     int ret = 0;
     static uint32_t prime_list[] = {
